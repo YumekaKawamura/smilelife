@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+/*---Reset---*/
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+/*クラス定義*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+*+html .clearfix{min-height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*--- ページ基本デザイン ---*/
+#main {
+	position: relative;
+	width: 100%;
+	background: url("../img/bg.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:rgba(255,255,255,0.4);
+	background-blend-mode: lighten;
+}
+#class {
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+}
+#class h2 {
+	font-family: "Rounded Mplus 1c";
+	font-size: 45px;
+	padding: 20px 40px;
+	background: linear-gradient(110deg, #FF5192, #FF97C2 45%, #FF5192);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,0.0);
+  color: #ff0000;
+}
+#hw {
+	padding: 20px 0 0 400px;
+	font-family: "Rounded Mplus 1c";
+	font-size: 25px;
+	display: inline-block;
+}
+#announce {
+	padding-top: 20px;
+	width: 75%;
+	margin: 10px auto;
+	position: relative;
+  padding: 1.5rem 2.5rem;
+  border: 4px solid #FF97C2;
+}
+#announce:before {
+	position: absolute;
+  top: 4px;
+  left: 4px;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  content: '';
+  border: 4px dotted #FF97C2;
+}
+#announce p {
+	font-family: "Rounded Mplus 1c";
+	font-size: 20px;
+	text-align: center;
+}
+#member {
+	width: 450px;
+	margin: 30px auto;
+}
+#member table tr {
+	font-size: 25px;
+	height: 30px;
+}
+#member table td {
+	font-family: "Rounded Mplus 1c";
+	width: 150px;
+	text-align: center;
+}
+#member table td a {
+	color: #000;
+	border-bottom: 2px dashed #FF97C2;
+	transition: 0.5s;
+}
+#member table td a:hover {
+	color: #FF97C2;
+}
+#btn {
+	margin: 50px auto;
+}
+#btn p {
+	text-align: center;
+	font-family: "Rounded Mplus 1c";
+	text-align: center;
+	font-size: 17px;
+	padding-top: 30px;
+}
+#btn p a {
+	transition: 0.5s;
+	color: #000;
+	border-bottom: 2px dashed #000;
+}
+#btn p a:hover {
+	color: #FF97C2;
+}

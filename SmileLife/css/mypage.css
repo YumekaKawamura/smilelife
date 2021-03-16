@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/*---Reset---*/
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+/*クラス定義*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+*+html .clearfix{min-height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*--- ページ基本デザイン ---*/
+#main {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url("../img/bg.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:rgba(255,255,255,0.4);
+	background-blend-mode: lighten;
+}
+#catch {
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+}
+#catch h2 {
+	font-family: "Rounded Mplus 1c";
+	font-size: 40px;
+	padding: 40px 30px 20px 30px;
+	background: linear-gradient(110deg, #FF5192, #FF97C2 45%, #FF5192);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,0.0);
+  color: #ff0000;
+	font-weight: bold;
+}
+#hw {
+	padding: 20px 0 0 250px;
+	font-family: "Rounded Mplus 1c";
+	font-size: 25px;
+	display: inline-block;
+}
+#diary {
+	width: 800px;
+	margin: 30px auto;
+	font-family: "Rounded Mplus 1c";
+}
+#diary table tr {
+	width: 800px;
+	margin: 0 auto;
+	font-size: 25px;
+}
+#diary table td {
+	display: inline-block;
+	padding-left: 30px;
+	text-align: center;
+}
+#diary table td a {
+	color: #000;
+	border-bottom: 2px dashed #FF97C2;
+	transition: 0.5s;
+}
+#diary table td a:hover {
+	color: #FF97C2;
+}
+#title {
+	width: 400px;
+}
+#btn {
+	margin: 0 auto;
+}
+#btn p {
+	text-align: center;
+	font-family: "Rounded Mplus 1c";
+	text-align: center;
+	font-size: 17px;
+	padding-top: 30px;
+}
+#btn p a {
+	transition: 0.5s;
+	color: #000;
+	border-bottom: 2px dashed #000;
+}
+#btn p a:hover {
+	color: #FF97C2;
+}

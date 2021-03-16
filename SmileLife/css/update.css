@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/*---Reset---*/
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+/*クラス定義*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+*+html .clearfix{min-height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*--- ページ基本デザイン ---*/
+#main {
+	width: 100%;
+	height: 75vh;
+	background-color: #DDFFFF;
+}
+#update h2 {
+	font-family: "Rounded Mplus 1c";
+	font-size: 30px;
+	border-bottom: 3px dashed #000;
+	display: inline-block;
+	font-weight: bold;
+}
+#update {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#new_class {
+	width: 65%;
+	margin: 10px auto;
+}
+#update table tr {
+	height: 40px;
+	display: inline-block;
+	padding-right: 5px;
+}
+#update table td {
+	padding-left: 5px;
+}
+#update table th {
+	font-family: "Rounded Mplus 1c";
+	font-size: 20px;
+}
+#update_class {
+	width: 100%;
+}
+#update_class th {
+	padding-right: 15px;
+}
+.square {
+	height: 30px;
+}
+#delmem {
+	color: #000;
+	display: inline-block;
+	border: 1px solid #000;
+	padding: 2px;
+	background-color: #ccc;
+}
+.btn {
+	padding-left: 10px;
+	font-family: "Rounded Mplus 1c";
+	width: 80px;
+	height: 30px;
+	display: flex;
+	margin: 30px auto;
+	background-color: #FFFF99;
+	font-size: 17px;
+	color: #000;
+	border: 2px solid #000;
+	text-align: center;
+	padding-left: 10px;
+}
+.btn:hover {
+	color: #FF97C2;
+}
+#update #new_class a:hover {
+	color: #FF97C2;
+}
+#btn {
+	text-align: center;
+	font-family: "Rounded Mplus 1c";
+	text-align: center;
+	font-size: 17px;
+}
+#btn a {
+	transition: 0.5s;
+	color: #000;
+	border-bottom: 2px dashed #000;
+}
+#btn a:hover {
+	color: #FF97C2;
+}
