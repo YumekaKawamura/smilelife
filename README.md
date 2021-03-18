@@ -24,4 +24,4 @@ PHP自作（学校教養システム）
 MAMP/MySQL/PHP  
 ## データベース  
 データベース名：smile_life  
-お使いのphpMyAdminに上記ファイル（DB.sql）をインポートしていただければとお使いになれると思います。  
+お使いのphpMyAdminに上記ファイル（smilelifeDB.sql）をインポートしていただければとお使いになれると思います。  
