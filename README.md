@@ -1,4 +1,4 @@
-# SmileLife
+# SmileLife:herb:
 ### PHP自作（学校向け教養システム）  
 主要機能：児童が提出した日記に対して先生がコメントしたり、端末１台で過去の日記を振り返ることができます。
 
@@ -28,6 +28,6 @@
 デザインにもこだわったので参考にしていただけたら幸いです:grin:
 ## 環境:computer:  
 MAMP/MySQL/PHP  
-## データベース  
+## データベース:globe_with_meridians:  
 データベース名：smile_life  
 お使いのphpMyAdminに上記ファイル（smilelifeDB.sql）をインポートしていただければお使いになれると思います。  
